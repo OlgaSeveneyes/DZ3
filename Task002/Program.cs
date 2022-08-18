@@ -19,7 +19,6 @@ catch (Exception exc)
 {
     Console.WriteLine($"Ошибка ввода! Необходимо ввести число. {exc.Message}");
     return;
-
 }
 
 double length = Math.Sqrt (Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2)+Math.Pow(z2-z1,2)); 
